@@ -1,0 +1,127 @@
+body {
+    margin: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: white; */
+}
+
+.container1 {
+    background-image: url("img/Background@2x.jpg");
+    height: 625px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    overflow: hidden;
+    display: flex;
+    padding: 20px 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em;
+    justify-content: space-between;
+}
+
+.img {
+    max-width: 20%;
+    display: flex;
+    /* margin: auto; */
+}
+
+.header-right {
+    /* overflow: hidden; */
+    /* background-color: white; */
+    display: block;
+    /* flex-flow: row wrap; */
+    justify-content: space-around;
+    /* flex-grow: 4; */
+    flex-grow: inherit;
+}
+
+.logo {
+    display: flex;
+    /* align-items: center; */
+}
+
+.logocontainer {
+    /* overflow: hidden; */
+    /* background-color: white; */
+    display: flex;
+    flex-flow: row wrap;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: inherit;
+    display: flex;
+    justify-content: space-around;
+    /* display: flex; */
+    /* flex-flow: row wrap; */
+}
+
+.header-right a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: inherit;
+    display: flex;
+    justify-content: space-around;
+    /* display: flex; */
+    /* flex-flow: row wrap; */
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.serv_text {
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    margin: 4em;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    width: 400px;
+    padding: 25px;
+}
+
+.button {
+    background-color: #14313e;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /* width: 100px; */
+    border-radius: 12px;
+    /* display: flex; */
+    /* flex-shrink: 3; */
+}
+
+
+/* @media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+} */
