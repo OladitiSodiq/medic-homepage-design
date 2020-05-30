@@ -1,12 +1,18 @@
+@font-face {
+    font-family: "hero";
+    src: url("font/hero.otf");
+}
+
 body {
     margin: 1em;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     /* background-color: white; */
+    font-family: hero;
 }
 
 .container1 {
     background-image: url("img/Background@2x.jpg");
-    height: 625px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,6 +30,7 @@ body {
 .img {
     max-width: 20%;
     display: flex;
+    opacity: 0.3;
     /* margin: auto; */
 }
 
@@ -85,15 +92,29 @@ body {
 }
 
 .serv_text {
-    /* display: flex;
     flex-direction: column;
-    flex-wrap: wrap; */
+    flex-wrap: wrap;
     margin: 4em;
     position: absolute;
-    bottom: 8px;
+    bottom: 2px;
     left: 16px;
-    width: 400px;
-    padding: 25px;
+    width: 500px;
+    padding-left: 15px;
+}
+
+.serv_text h5 {
+    color: rgba(21, 54, 65, .6);
+    font-size: 18px;
+}
+
+.serv_text h2 {
+    color: rgba(1, 22, 29, 0.972);
+    font-size: 30px;
+}
+
+.serv_text h3 {
+    color: rgba(21, 54, 65, .6);
+    font-size: 20px;
 }
 
 .button {
@@ -101,17 +122,14 @@ body {
     /* Green */
     border: none;
     color: white;
-    padding: 25px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    /* width: 100px; */
     border-radius: 12px;
-    /* display: flex; */
-    /* flex-shrink: 3; */
 }
 
 
