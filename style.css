@@ -5,16 +5,58 @@
 
 body {
     margin: 1em;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* background-color: white; */
     font-family: hero;
 }
 
 .container1 {
     background-image: url("img/Background@2x.jpg");
-    height: 600px;
+    height: 615px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.imagebanner {
+    position: absolute;
+    bottom: -100px;
+    right: 170px;
+    z-index: 1;
+    height: 620px;
+}
+
+.service_box {
+    display: flex;
+    padding-top: 20px;
+    height: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+
+.banner_ {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+.service_box div:nth-child(1) {
+    background-color: #6fbfe4;
+    height: 300px;
+    width: 350px;
+    border-radius: 12px;
+}
+
+.service_box div:nth-child(2) {
+    background-color: #96cae2e7;
+    height: 300px;
+    width: 350px;
+    border-radius: 12px;
+}
+
+.service_box div:nth-child(3) {
+    background-color: #6fbfe4;
+    height: 300px;
+    width: 350px;
+    border-radius: 12px;
 }
 
 .header {
@@ -31,31 +73,21 @@ body {
     max-width: 20%;
     display: flex;
     opacity: 0.3;
-    /* margin: auto; */
 }
 
 .header-right {
-    /* overflow: hidden; */
-    /* background-color: white; */
     display: block;
-    /* flex-flow: row wrap; */
     justify-content: space-around;
-    /* flex-grow: 4; */
     flex-grow: inherit;
 }
 
 .logo {
     display: flex;
-    /* align-items: center; */
 }
 
 .logocontainer {
-    /* overflow: hidden; */
-    /* background-color: white; */
     display: flex;
     flex-flow: row wrap;
-    /* align-items: center; */
-    /* justify-content: flex-start; */
 }
 
 .header a {
@@ -68,8 +100,6 @@ body {
     line-height: inherit;
     display: flex;
     justify-content: space-around;
-    /* display: flex; */
-    /* flex-flow: row wrap; */
 }
 
 .header-right a {
@@ -82,8 +112,6 @@ body {
     line-height: inherit;
     display: flex;
     justify-content: space-around;
-    /* display: flex; */
-    /* flex-flow: row wrap; */
 }
 
 .header a.logo {
@@ -103,7 +131,7 @@ body {
 }
 
 .serv_text h5 {
-    color: rgba(21, 54, 65, .6);
+    color: rgba(21, 54, 65, 0.6);
     font-size: 18px;
 }
 
@@ -113,7 +141,7 @@ body {
 }
 
 .serv_text h3 {
-    color: rgba(21, 54, 65, .6);
+    color: rgba(21, 54, 65, 0.6);
     font-size: 20px;
 }
 
@@ -143,3 +171,7 @@ body {
         float: none;
     }
 } */
+
+
+}
+*/
