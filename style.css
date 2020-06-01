@@ -17,18 +17,18 @@ body {
 
 .imagebanner {
     position: absolute;
-    bottom: -100px;
-    right: 170px;
+    bottom: -145px;
+    right: 150px;
     z-index: 1;
-    height: 620px;
+    height: 600px;
 }
 
 .service_box {
     display: flex;
     padding-top: 20px;
     height: 300px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 140px;
+    padding-right: 110px;
     justify-content: space-between;
 }
 
@@ -46,10 +46,11 @@ body {
 }
 
 .service_box div:nth-child(2) {
-    background-color: #96cae2e7;
+    background-color: #96cae2;
     height: 300px;
     width: 350px;
     border-radius: 12px;
+    z-index: 100;
 }
 
 .service_box div:nth-child(3) {
@@ -57,6 +58,7 @@ body {
     height: 300px;
     width: 350px;
     border-radius: 12px;
+    z-index: 100;
 }
 
 .header {
@@ -123,31 +125,31 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     margin: 4em;
-    position: absolute;
-    bottom: 2px;
-    left: 16px;
-    width: 500px;
     padding-left: 15px;
+    padding-top: 75px;
 }
 
+
+}
 .serv_text h5 {
     color: rgba(21, 54, 65, 0.6);
     font-size: 18px;
+    margin: 0px;
 }
-
 .serv_text h2 {
     color: rgba(1, 22, 29, 0.972);
     font-size: 30px;
+    margin: 0px;
 }
-
 .serv_text h3 {
     color: rgba(21, 54, 65, 0.6);
     font-size: 20px;
+    margin: 0px;
 }
-
 .button {
     background-color: #14313e;
     /* Green */
+    
     border: none;
     color: white;
     padding: 15px;
@@ -160,18 +162,13 @@ body {
     border-radius: 12px;
 }
 
-
 /* @media screen and (max-width: 500px) {
-    .header a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    .header-right {
-        float: none;
-    }
+  .header a {
+      float: none;
+      display: block;
+      text-align: left;
+  }
+  .header-right {
+      float: none;
+  }
 } */
-
-
-}
-*/
